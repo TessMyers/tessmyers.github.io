@@ -1,0 +1,40 @@
+/*
+wine: #723141
+light wine: #784a55
+grey: #695966
+dark grey: #423f4f
+slate blue: #322e45;
+*/
+
+body {
+  background-image: url('assets/escheresque.png');
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  float: left;
+  height: 85vh;
+  width: 100%;
+}
+
+.module {
+  display: inline-block;
+  height: 300px;
+  width: 20%;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #723141;
+}
+
+.empty {
+  background-color: #784a55;
+  opacity: 0.3;
+}
