@@ -16,6 +16,19 @@ a {
   color: black;
 }
 
+h2 {
+  margin: 10px 0px 10px 0px;
+}
+
+.title {
+  padding-left: 20px;
+}
+
+.name {
+  margin: 10px;
+  font-size: 16pt;
+}
+
 .content {
   float: left;
   height: 85vh;
@@ -24,7 +37,7 @@ a {
 
 .module {
   display: inline-block;
-  height: 300px;
+  height: 150px;
   width: 20%;
   margin: 10px;
   border-radius: 10px;
@@ -32,6 +45,7 @@ a {
   border-style: solid;
   border-width: 3px;
   border-color: #723141;
+  background-size: cover;
 }
 
 .empty {
